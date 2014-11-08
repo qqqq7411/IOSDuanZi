@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3958E36D-07EB-4D80-8656-1185D8B6206C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IOSDuanZi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>62F017B3C5D333E4DC4B306BAD200AA8F4C84701</key>
+		<string>https://github.com/qqqq7411/IOSDuanZi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOSDuanZi/IOSDuanZi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>62F017B3C5D333E4DC4B306BAD200AA8F4C84701</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/qqqq7411/IOSDuanZi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>62F017B3C5D333E4DC4B306BAD200AA8F4C84701</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62F017B3C5D333E4DC4B306BAD200AA8F4C84701</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSDuanZi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
