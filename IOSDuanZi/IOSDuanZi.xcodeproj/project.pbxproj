@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1F4C611A0F9F3C00420C0A /* Net.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F4C601A0F9F3C00420C0A /* Net.m */; };
+		6A1F4C641A0FA3EA00420C0A /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F4C631A0FA3EA00420C0A /* Tools.m */; };
+		6A22A5E81A0F969E00E3BB1F /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A22A5E71A0F969E00E3BB1F /* 12.png */; };
+		6A22A5EA1A0F96AD00E3BB1F /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A22A5E91A0F96AD00E3BB1F /* 0.png */; };
+		6A22A5ED1A0F984300E3BB1F /* DuanziList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22A5EC1A0F984300E3BB1F /* DuanziList.m */; };
+		6A22A5F31A0F9A0700E3BB1F /* RecentImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22A5F21A0F9A0700E3BB1F /* RecentImageList.m */; };
+		6A22A5F61A0F9AA900E3BB1F /* RecentTextList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A22A5F51A0F9AA900E3BB1F /* RecentTextList.m */; };
 		6A4FC4091A0E376100CB2E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FC4081A0E376100CB2E0C /* main.m */; };
 		6A4FC40C1A0E376100CB2E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FC40B1A0E376100CB2E0C /* AppDelegate.m */; };
 		6A4FC40F1A0E376100CB2E0C /* IOSDuanZi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FC40D1A0E376100CB2E0C /* IOSDuanZi.xcdatamodeld */; };
-		6A4FC4121A0E376200CB2E0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FC4111A0E376200CB2E0C /* ViewController.m */; };
 		6A4FC4151A0E376200CB2E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FC4131A0E376200CB2E0C /* Main.storyboard */; };
 		6A4FC4171A0E376200CB2E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FC4161A0E376200CB2E0C /* Images.xcassets */; };
 		6A4FC41A1A0E376200CB2E0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FC4181A0E376200CB2E0C /* LaunchScreen.xib */; };
 		6A4FC4261A0E376200CB2E0C /* IOSDuanZiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FC4251A0E376200CB2E0C /* IOSDuanZiTests.m */; };
+		6A54BEBD1A177A19002E2AD3 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A54BEBC1A177A19002E2AD3 /* App.m */; };
+		6ACD33F01A18E2BA00304F64 /* UserActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD33EF1A18E2BA00304F64 /* UserActionButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +36,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1F4C5F1A0F9F3C00420C0A /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
+		6A1F4C601A0F9F3C00420C0A /* Net.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Net.m; sourceTree = "<group>"; };
+		6A1F4C621A0FA3EA00420C0A /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		6A1F4C631A0FA3EA00420C0A /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		6A22A5E71A0F969E00E3BB1F /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		6A22A5E91A0F96AD00E3BB1F /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		6A22A5EB1A0F984300E3BB1F /* DuanziList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuanziList.h; sourceTree = "<group>"; };
+		6A22A5EC1A0F984300E3BB1F /* DuanziList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuanziList.m; sourceTree = "<group>"; };
+		6A22A5F11A0F9A0700E3BB1F /* RecentImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentImageList.h; sourceTree = "<group>"; };
+		6A22A5F21A0F9A0700E3BB1F /* RecentImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentImageList.m; sourceTree = "<group>"; };
+		6A22A5F41A0F9AA900E3BB1F /* RecentTextList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentTextList.h; sourceTree = "<group>"; };
+		6A22A5F51A0F9AA900E3BB1F /* RecentTextList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentTextList.m; sourceTree = "<group>"; };
 		6A4FC4031A0E376100CB2E0C /* IOSDuanZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDuanZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4FC4071A0E376100CB2E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A4FC4081A0E376100CB2E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A4FC40A1A0E376100CB2E0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A4FC40B1A0E376100CB2E0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6A4FC40E1A0E376100CB2E0C /* IOSDuanZi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSDuanZi.xcdatamodel; sourceTree = "<group>"; };
-		6A4FC4101A0E376100CB2E0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6A4FC4111A0E376200CB2E0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A4FC4141A0E376200CB2E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A4FC4161A0E376200CB2E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A4FC4191A0E376200CB2E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6A4FC41F1A0E376200CB2E0C /* IOSDuanZiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDuanZiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4FC4241A0E376200CB2E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A4FC4251A0E376200CB2E0C /* IOSDuanZiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSDuanZiTests.m; sourceTree = "<group>"; };
+		6A54BEBB1A177A19002E2AD3 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		6A54BEBC1A177A19002E2AD3 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		6ACD33EE1A18E2BA00304F64 /* UserActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserActionButton.h; sourceTree = "<group>"; };
+		6ACD33EF1A18E2BA00304F64 /* UserActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserActionButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +107,25 @@
 			children = (
 				6A4FC40A1A0E376100CB2E0C /* AppDelegate.h */,
 				6A4FC40B1A0E376100CB2E0C /* AppDelegate.m */,
-				6A4FC4101A0E376100CB2E0C /* ViewController.h */,
-				6A4FC4111A0E376200CB2E0C /* ViewController.m */,
 				6A4FC4131A0E376200CB2E0C /* Main.storyboard */,
 				6A4FC4161A0E376200CB2E0C /* Images.xcassets */,
 				6A4FC4181A0E376200CB2E0C /* LaunchScreen.xib */,
 				6A4FC40D1A0E376100CB2E0C /* IOSDuanZi.xcdatamodeld */,
 				6A4FC4061A0E376100CB2E0C /* Supporting Files */,
+				6A22A5EB1A0F984300E3BB1F /* DuanziList.h */,
+				6A22A5EC1A0F984300E3BB1F /* DuanziList.m */,
+				6A22A5F11A0F9A0700E3BB1F /* RecentImageList.h */,
+				6A22A5F21A0F9A0700E3BB1F /* RecentImageList.m */,
+				6A22A5F41A0F9AA900E3BB1F /* RecentTextList.h */,
+				6A22A5F51A0F9AA900E3BB1F /* RecentTextList.m */,
+				6A1F4C5F1A0F9F3C00420C0A /* Net.h */,
+				6A1F4C601A0F9F3C00420C0A /* Net.m */,
+				6A1F4C621A0FA3EA00420C0A /* Tools.h */,
+				6A1F4C631A0FA3EA00420C0A /* Tools.m */,
+				6A54BEBB1A177A19002E2AD3 /* App.h */,
+				6A54BEBC1A177A19002E2AD3 /* App.m */,
+				6ACD33EE1A18E2BA00304F64 /* UserActionButton.h */,
+				6ACD33EF1A18E2BA00304F64 /* UserActionButton.m */,
 			);
 			path = IOSDuanZi;
 			sourceTree = "<group>";
@@ -99,6 +133,8 @@
 		6A4FC4061A0E376100CB2E0C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A22A5E91A0F96AD00E3BB1F /* 0.png */,
+				6A22A5E71A0F969E00E3BB1F /* 12.png */,
 				6A4FC4071A0E376100CB2E0C /* Info.plist */,
 				6A4FC4081A0E376100CB2E0C /* main.m */,
 			);
@@ -202,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A22A5E81A0F969E00E3BB1F /* 12.png in Resources */,
+				6A22A5EA1A0F96AD00E3BB1F /* 0.png in Resources */,
 				6A4FC4151A0E376200CB2E0C /* Main.storyboard in Resources */,
 				6A4FC41A1A0E376200CB2E0C /* LaunchScreen.xib in Resources */,
 				6A4FC4171A0E376200CB2E0C /* Images.xcassets in Resources */,
@@ -223,8 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A4FC40F1A0E376100CB2E0C /* IOSDuanZi.xcdatamodeld in Sources */,
+				6A1F4C611A0F9F3C00420C0A /* Net.m in Sources */,
+				6ACD33F01A18E2BA00304F64 /* UserActionButton.m in Sources */,
+				6A22A5F61A0F9AA900E3BB1F /* RecentTextList.m in Sources */,
+				6A54BEBD1A177A19002E2AD3 /* App.m in Sources */,
+				6A1F4C641A0FA3EA00420C0A /* Tools.m in Sources */,
 				6A4FC40C1A0E376100CB2E0C /* AppDelegate.m in Sources */,
-				6A4FC4121A0E376200CB2E0C /* ViewController.m in Sources */,
+				6A22A5ED1A0F984300E3BB1F /* DuanziList.m in Sources */,
+				6A22A5F31A0F9A0700E3BB1F /* RecentImageList.m in Sources */,
 				6A4FC4091A0E376100CB2E0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +460,7 @@
 				6A4FC42B1A0E376200CB2E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4FC42C1A0E376200CB2E0C /* Build configuration list for PBXNativeTarget "IOSDuanZiTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +469,7 @@
 				6A4FC42E1A0E376200CB2E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
