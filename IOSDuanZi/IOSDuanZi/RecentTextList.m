@@ -14,6 +14,8 @@
 
 @implementation RecentTextList
 
+
+//重写1个方法
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];

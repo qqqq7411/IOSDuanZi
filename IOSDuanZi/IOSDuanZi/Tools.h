@@ -10,10 +10,10 @@
 
 @interface Tools : NSObject
 
-
+//创建md5方法
 +(NSString*)md5:(NSString*)str;
 
-
+//创建idfa方法
 +(NSString*)getIDFA;
 
 

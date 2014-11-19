@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 #include <UIKit/UIKit.h>
 @interface App : NSObject{
+    //使用uialertview呈现加载界面
     UIAlertView * _alertView;
 }
-
+//提示加载界面
 -(void)showLoading:(NSString*)msg;
+//隐藏加载界面
 -(void)hideloading;
 
 

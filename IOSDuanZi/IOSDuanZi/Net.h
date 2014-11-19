@@ -25,12 +25,13 @@ typedef enum : NSUInteger {
 
 @interface Net : NSObject
 
+//静态的方法,用字典上传1个参数，称为args，compleeteHandler作为回调方法
 +(void)loadData:(NSString*)url args:(NSDictionary*)dict completeHandler:(void(^)(NSData * data))handler;
 
-
+//idfa方法
 +(void)regWithIDFA:(NSString*)idfa completeHandler:(void(^)(NSDictionary * result))handler;
-
-+(void)getUid:(void(^)(NSString * Uid))callback;
+//实现获取uid方法
++(void)getUid:(void(^)(NSString * uid))callback;
 
 +(void)loadList:(JOKE_TYPE)jt dataType:(JOKE_DATA_TYPE)dt uid:(NSString*)uid pid:(NSString*)pid perPage:(NSString*)perPage completeHandler:(void(^)(NSDictionary* result))handler;
 

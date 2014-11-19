@@ -21,7 +21,7 @@
     return __ins;
 }
 
-
+//初始化
 - (instancetype)init
 {
     self = [super init];
@@ -30,6 +30,7 @@
     }
     return self;
 }
+
 
 -(void)showLoading:(NSString *)msg{
     if (!_alertView) {
