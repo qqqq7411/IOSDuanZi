@@ -209,6 +209,24 @@
             </objects>
             <point key="canvasLocation" x="-771" y="636"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="8ca-rD-uXQ">
+            <objects>
+                <viewController id="wKg-xn-Lfk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vU0-Yh-fl8"/>
+                        <viewControllerLayoutGuide type="bottom" id="KxV-2r-Iiv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vKs-TA-ZQm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXp-J4-O20" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-432" y="948"/>
+        </scene>
         <!--图片视频-->
         <scene sceneID="xrP-z8-bVj">
             <objects>
@@ -252,12 +270,6 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-hY-RKe" customClass="UserActionButton">
-                                            <rect key="frame" x="175" y="209" width="30" height="30"/>
-                                            <state key="normal" title="分享">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                        </button>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjF-HO-QQd">
                                             <rect key="frame" x="0.0" y="16" width="567" height="167"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -268,6 +280,12 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
+                                        <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-hY-RKe" customClass="UserActionButton">
+                                            <rect key="frame" x="175" y="209" width="30" height="30"/>
+                                            <state key="normal" title="分享">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="hv4-MG-d4X" firstAttribute="width" secondItem="nrn-5o-Vw1" secondAttribute="width" id="0Rz-my-LVm"/>
